@@ -1,0 +1,69 @@
+
+What is git?
+Git is a version control system. In short we can call it vcs. Without git, there are lot of vcs. They are svn, marcurial, gitlab, cvs and more.
+
+What is github?
+Github is a hosting service, where we'll host our Flutter project.
+
+What are the benefits of using git/github?
+
+fast
+work offline
+revise code/control version
+team collaboration
+more..........
+How to use git/github?
+To use git, must have to install in our operating sytem. You can download & install from here or watch Video tutorial
+
+To use github, must have to create a github account and logged in the account. Create account from here.
+
+Now let's jump into the main topic, How we can use git/github in our project? How to upload flutter project on github;
+
+Step-1 Create a Flutter Project
+Step-2 Open Terminal
+Step-3 Step by step all commands to upload project remotely.
+→ 1. git init
+→ 2. git add .
+→ 3. git commit -m "description"
+→ 4. git branch -M branchName /////// not required
+→ 5. git remote add origin repoUrl
+→ 6. git push -u origin branchName
+
+You can see in Video tutorial
+
+Add modified files to that remote project;
+Step-1 Step by step 3 commands to upload modified files/folders.
+→ 1. git add .
+→ 2. git commit -m "description"
+→ 3. git push -u origin branchName
+This way we can upload our project remotely.
+
+Now we'll see how we can bring the repo locally in our system.
+There are 2 ways; 1. Git clone , 2. Download zip 
+To clone repo : Github project → code → copy url → vs code → clone repo
+*To download zip : * Github project → code → download zip
+
+//////////////////write by me///////////////
+Git commands:
+1.1 Internel git set up :
+1)install git
+2)commadprompt--
+a)set name-------------------------git config --global user.name  *name
+b)set email-------------------------git config --global user.email *email
+c) check name---------------------git config --global user.name
+
+1.2 On Project:
+0)for initializations---------------git init
+1)add file---------------------------touch *filename
+2)add stage or add to git--------git add -A/git add *filename
+3)for commit ---------------------git commit -m "comment"
+4)alternative commit-----------git commit /then press i type Initial commit then press ESC then type : wq
+5)return back  delate file-------git checkout *filename
+6)return back all file-----------git checkout -f
+7)set folder for edit if need ---cd  *foldername
+8)git file decription------------git log 
+9) last changes-----------------git log -p -1
+10)remove last commit---------git reset --hard HEAD^
+11)remove last multiple commit------git reset --hard HEAD~2
+
+

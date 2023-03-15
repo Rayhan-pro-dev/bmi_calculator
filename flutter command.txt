@@ -1,0 +1,15 @@
+from angela
+1)Quiz app
+2)BMI calcultor
+3)Weather app
+4)FlashChat
+5)Todo app
+
+Buy PC:06 march 2022
+Flutter Journey start from: 08 june 2022
+Ployhacks Start :20 August2022
+
+FLUTTER COMMANDS:
+1.check status::flutter doctor
+2.build apk android::flutter build apk --split-per-abi
+3.build apk android::flutter build apk --relase

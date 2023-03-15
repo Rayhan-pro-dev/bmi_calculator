@@ -1,0 +1,57 @@
+first confirm python3 and pip3 are installed in your pc. (in windows python and pip) 
+
+#step 1	:	first go to your desired folder where you want to install django project, here "desktop" is that folder
+
+			cd desktop
+
+#step 2	:	install virtual environment. if requirement already satisfied, means virtual environment already installed
+			
+			pip3 install virtualenv
+
+			pip install virtualenv (for windows user)
+
+#step 3	:	create a virtualenv dir. here "myenv" is the dir name. you can give yours.
+
+			virtualenv -p python3 myenv
+
+			virtualenv myenv (for windows user)
+
+#step 4	:	activate virtualenv, if (myenv) appeard in command line, it means virtual environment activate successfully
+
+			source myenv/bin/activate
+
+			.\myenv\scripts\activate (for windows user)
+
+#step 5	:	install django
+
+			pip3 install django
+				
+			pip install django (for windows user)
+
+#step 6	:	start a django project named "django-site". you can give yours
+
+			django-admin startproject django-site
+ 
+#step 7	:	cd django-site
+
+#step 8	:	start django server
+
+			python3 manage.py runserver 
+
+			python manage.py runserver (for windows user)
+
+#step 9	:	open browser and go to 127.0.0.1:8000
+
+you have successfully run your django project.
+
+#step10  :		Start an App
+		python manage.py startapp App_Name
+
+* python manage.py makemigrations
+* python manage.py migrate
+
+#step11  :		Create User
+		python manage.py createsuperuser
+
+#step11  :		Create User
+		python manage.py migrate

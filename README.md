@@ -5,6 +5,14 @@ A new Flutter project.
 ## Getting Started
 
 This project is a starting point for a Flutter application.
+Home Screen
+![images1](screenshot/1.jpg)
+Result Screen
+![images2](screenshot/2.jpg)
+Home Screen
+![images3](screenshot/3.jpg)
+Result Screen
+![images4](screenshot/4.jpg)
 
 A few resources to get you started if this is your first Flutter project:
 
